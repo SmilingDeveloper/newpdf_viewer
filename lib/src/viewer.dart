@@ -233,7 +233,7 @@ class _PDFViewerState extends State<PDFViewer> {
                   widget.document.count,
                   _jumpToPage,
                   _animateToPage,
-                )
+                ): Container(),
              /* : BottomAppBar(
                   child: new Row(
                     mainAxisAlignment: MainAxisAlignment.center,
