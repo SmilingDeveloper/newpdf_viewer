@@ -214,7 +214,7 @@ class _PDFViewerState extends State<PDFViewer> {
               : Container(),
         ],
       ),
-      floatingActionButton: widget.showPicker && widget.document.count > 1
+    /*  floatingActionButton: widget.showPicker && widget.document.count > 1
           ? FloatingActionButton(
               elevation: 4.0,
               tooltip: widget.tooltip.jump,
@@ -224,7 +224,7 @@ class _PDFViewerState extends State<PDFViewer> {
               },
             )
           : null,
-    /*  floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: (widget.showNavigation && widget.document.count > 1)
           ? widget.navigationBuilder != null
               ? widget.navigationBuilder(
@@ -298,7 +298,7 @@ class _PDFViewerState extends State<PDFViewer> {
                     ],
                   ),
                 )
-          :*/ Container(),
+          : Container(),*/
     );
   }
 }
