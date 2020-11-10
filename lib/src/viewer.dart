@@ -224,7 +224,7 @@ class _PDFViewerState extends State<PDFViewer> {
               },
             )
           : null,
-       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+     /*  floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: (widget.showNavigation && widget.document.count > 1),
          // ? widget.navigationBuilder != null
                widget.navigationBuilder(
@@ -233,7 +233,7 @@ class _PDFViewerState extends State<PDFViewer> {
                   widget.document.count,
                   _jumpToPage,
                   _animateToPage,
-                ));//;  :Container()
+                ));//;  :Container()*/
     /*  floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: (widget.showNavigation  && widget.document.count > 1 )
         //  ? widget.navigationBuilder != null
@@ -309,6 +309,6 @@ class _PDFViewerState extends State<PDFViewer> {
                   ),
                 )*/
          // : Container(),
-  //  );
+    );
   }
 }
