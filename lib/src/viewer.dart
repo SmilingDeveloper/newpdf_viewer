@@ -299,7 +299,7 @@ class _PDFViewerState extends State<PDFViewer> {
         ),
       )
           :
-      null,
+      Text('No Pdf'),
     );
   }
 }
